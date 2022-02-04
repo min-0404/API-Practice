@@ -1,0 +1,29 @@
+// 조코딩 책검색 API 실습강의
+https://www.youtube.com/watch?v=QPEUU89AOg8&t=2s
+https://github.com/youtube-jocoding/kakao-search-book-api/blob/master/index.html (코드)
+
+// jquery cdn 링크
+https://releases.jquery.com/
+
+// jquery ajax 링크
+https://api.jquery.com/jquery.ajax/
+
+// jquery append 함수 링크
+https://api.jquery.com/append/
+
+// 카카오 개발자 검색 API 가이드 링크
+https://developers.kakao.com/docs/latest/ko/daum-search/dev-guide
+
+// 중요!!
+//  "null has been blocked by CORS policy" 오류 해결법
+// 로컬 서버에서 ajax 호출이 안되는 이유 : 로컬시스템에서 로컬 파일 리소스를 요청할 때는 origin(출처)이 null로 넘어가기 때문에 CORS에러가 발생한다.
+// 해결법 : 따로 서버 필요하므로 f1키 -> open with live server 이용
+https://www.youtube.com/watch?v=nx8E5BF0XuE
+
+// CORS Policy 에러 관련 링크
+https://velog.io/@takeknowledge/%EB%A1%9C%EC%BB%AC%EC%97%90%EC%84%9C-CORS-policy-%EA%B4%80%EB%A0%A8-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%B0%9C%EC%83%9D%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0-3gk4gyhreu
+
+// ajax 참고링크
+https://dion-ko.tistory.com/59
+https://m.blog.naver.com/sssang97/221640020197
+

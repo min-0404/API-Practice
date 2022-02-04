@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossorigin="anonymous">
+    </script>
+
+    <h1>날씨 앱</h1>
+    <p id = "weatherinformation">날씨 로딩중...</p>
+
+
+    <script>
+        $.ajax({
+            method: "GET",
+            url: "/ajax_practice2/weather.json",
+            data: {}
+            })
+            .done(function( msg ) {
+            // 받아온 데이터를 화면에 그려주기
+            $("p").append(msg.temperature);
+            
+            $("p").append(msg.description);
+            });
+    </script>
+    
+    
+</body>
+</html>
+
+
